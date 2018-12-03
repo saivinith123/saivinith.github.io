@@ -3,7 +3,7 @@
 html,body {
 	height: 100%;
 	width: 100%;
-	font-family: 'poppins ,sans-serif';
+	font-family: 'poppins';
 	color: #222;
 }	
 .navbar {
@@ -13,7 +13,7 @@ html,body {
 	padding-right: 20px;
 }
 .nav-link{
-	font-size:1.1cm !important;
+	font-size:.5cm !important;
 }
 .carousel-inner img{
 	width: 100%;
@@ -126,7 +126,7 @@ html,body {
 	margin-bottom: 1rem
 }
 .social a {
-	font-size: 2cm;
+	font-size: 1cm;
 	text-align: center;
 	padding: 2rem;
 }
@@ -166,8 +166,8 @@ html,body {
 	font-size: 200%;
 }
 .social a{
-	font-size: 2.5 rem;
-	padding: 1.2 rem;
+	font-size: 2.5cm;
+	padding: 1.2rem;
 }
 }
 @media (max-width: 576px) {
@@ -198,8 +198,8 @@ html,body {
 	font-size: 160%;
 }
 .social a{
-	font-size: 2 rem;
-	padding: .7 rem;
+	font-size: 40px;
+	padding: .7rem;
 }
   
 }
@@ -229,7 +229,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/fixedbg.jpg');
   position: fixed;
   display: block;
   top: 0;
