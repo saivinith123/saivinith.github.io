@@ -14,8 +14,8 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-<div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+<div id="home" class="container-fluid">
 	<a class="navbar-brand" href="#"><img src="img/logo.png" style="width:50px;height:50px;"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
@@ -23,19 +23,19 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-				<a class="nav-link" href"#">Home</a>
+				<a class="nav-link" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href"#">About</a>
+				<a class="nav-link" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href"#">Team</a>
+				<a class="nav-link" href="#team">Team</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href"#">Connect</a>
+				<a class="nav-link" href="#connect">Connect</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href"#">Contact Us</a>
+				<a class="nav-link" href="#contact">Contact Us</a>
 				</li>
 			</ul>
 		</div>
@@ -66,7 +66,7 @@
 	</div> </div>
 </div>
 <!--- Jumbotron -->
-<div class="container-fluid">
+<div id="about" class="container-fluid">
 <div class="row jumbotron">
 	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
 	<p class="lead" >A happy and prosperous society </p>
@@ -177,7 +177,7 @@
 </div>
   
 <!--- Meet the team -->
-<div class="container padding">
+<div id="team" class="container padding">
 <div class="row welcome text-center">
 	<div class="col-12">
 	<h1 class="display-4">Meet the Team</h1>
@@ -196,7 +196,22 @@
 				<h4 class="card-title">Sridhar Neelam</h4>
 				<h6>Founder CEO</h6>
 				<p class="card-text">Sridhar Neelam is a young BITS Pilani Alumni with almost 5 years of working experience in Rural India.</p>
-				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sridharModal">See Profile</button>
+				<div class="modal fade" id="sridharModal">
+				<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+				<h4 class="modal-title">Sridhar Neelam</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">Sridhar is a BITS Pilani Alumni with over 6 years of experience in the development sector. As a Partner Entrepreneur for Indus Action, he is presently running the Shiksha Ki Ore campaign in Rajasthan. He has been associated in the past with Nirmaan, a non profit focused on education & skill development for the under privileged, and the Kakatiya Sandbox of Deshpande Foundation, a social innovation hub in rural Telangana. He is inspired to work for the socio-economic empowerment of rural communities. His interests include youth empowerment, agriculture and micro-enterprise development.
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+				</div>
+				</div>
+				</div>
+				</div>
 			</div>		
 		</div>
 	</div>
@@ -207,11 +222,26 @@
 				<h4 class="card-title">Ashish Rathore</h4>
 				<h6>Community Mobilizer</h6>
 				<p class="card-text">Asish Rathore is a community mobilizer has a experience of #years  bilizer has a experience of #years.</p>
-				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#asheeshModal">See Profile</button>
+				<div class="modal fade" id="asheeshModal">
+				<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+				<h4 class="modal-title">Ashish Rathore</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">Asish Rathore is a community mobilizer has a experience of #years  bilizer has a experience of #years.
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+				</div>
+				</div>
+				</div>
+				</div>
 			</div>		
 		</div>
 	</div>
-
+	
 	<div class="col-md-4">
 		<div class="card">
 			<img class="card-img-top" src="img/saivinith.jpg">
@@ -219,32 +249,31 @@
 				<h4 class="card-title">Sai Vinith</h4>
 				<h6>Technology Associate</h6>
 				<p class="card-text">Sai Vinith is a graduate from Nishitha Degree College having experience of 1 year in Technical background.</p>
-				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#saiModal">See Profile</button>
+				<div class="modal fade" id="saiModal">
+				<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+				<h4 class="modal-title">Sai Vinith</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">Sai Vinith is a graduate from Nishitha Degree College having experience of 1 year in Technical background.
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+				</div>
+				</div>
+				</div>
+				</div>
 			</div>		
 		</div>
 	</div>
 </div>
 </div>
 </div>
-<!--- Two Column Section 
-<div class="container padding">
-<div class="row padding">
-	<div class="col-lg-8">
-		<h2>Objective</h2>
-		<p>- To empower individuals through quality interventions which will lead to their socio-economic empowerment.</p>
-		<p>- To collaborate with Government, Non Government, Private organizations and educational institutions to work on issues of public welfare. </p>
-		<br>
-	</div>
-	<div class="col-lg-4">
-		<img src="img/group.jpg" class="img-fluid">
-	</div>
-</div>
-</div>
-
-<hr class="my-4"-->
 
 <!--- Connect -->
-<div class="container padding">
+<div id="connect" class="container padding">
 <div class="row text-center padding">
 	<div class="col-12">
 	<h2>Connect</h2>
@@ -261,7 +290,7 @@
 
 <!--- Footer -->
 <footer>
-<div class="container-fluid padding">
+<div id="contact" class="container-fluid padding">
 <div class="row footer text-center">
 	<div class="col-md-4">
 		<hr class="light">
