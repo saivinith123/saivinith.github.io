@@ -12,11 +12,11 @@ html,body {
 .nav-link{
 	font-size: .5cm !important;
 }
-.navbar-brand {
-	font-size:100%;
-}
 main {
 	padding-top: 76 px;
+}
+.navbar-brand h1{
+	font-size: 30px;
 }
 .carousel-inner img{
 	width: 100%;
@@ -95,7 +95,7 @@ main {
 	color: #bb0000;
 }
 .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover,{
-    color: #d5d5d5;
+    color: #fdcdcd;
 }
 .footer {
 	background-color: #3f3f3f;
