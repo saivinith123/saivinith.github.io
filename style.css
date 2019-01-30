@@ -46,10 +46,6 @@ main {
 	background-color: #563d7c;
 	border: 1px solid #563d7c;
 }
-.jumbotron{
-	padding: 1rem;
-	border-radius: 0; 
-}
 .about {
 	width: 100%;
 	margin: 0 auto;
@@ -213,7 +209,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/fixedbg.jpg');
+  background-image: url('img/fixedbg.png');
   position: fixed;
   display: block;
   top: 0;
